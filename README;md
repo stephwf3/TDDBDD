@@ -1,0 +1,15 @@
+# TDD project
+
+## Needs
+
+You need PHP 7.2, MySQL, ...
+
+## Instructions
+
+```
+git clone ...
+composer install
+php bin/phpunit
+```
+
+Code now !
