@@ -11,12 +11,14 @@ class Molecule
      */
     private $atoms = [];
     private $name;
+    private $type;
 
     /**
      * Molecule constructor.
      */
-    public function __construct()
+    public function __construct($type)
     {
+        $this->type = $type;
     }
 
     public function addAtom(Atom $atom)
@@ -51,5 +53,11 @@ class Molecule
 
         return $this->name;
     }
+
+    public function getType()
+    {
+        return $this->type;
+    }
+
 
 }
